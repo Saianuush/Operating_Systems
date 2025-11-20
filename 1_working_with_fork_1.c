@@ -3,6 +3,8 @@
 
 int main(){
     fork();
+    
     fork();
-    printf("Hello World\nProcess ID : %d\n",getpid());
+    printf("\nHello World\nProcess ID : %d\n",getpid());
+    printf("\n2 , Process ID: %d\n",getpid());
 }
